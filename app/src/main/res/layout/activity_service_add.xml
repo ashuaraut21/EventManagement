@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/textback"
+    android:orientation="vertical"
+    tools:context=".service_add">
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:text="ADD SERVICE"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/service_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint=" Service Name"
+        android:inputType="textPersonName"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:hint=" Price"
+        android:inputType="text"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:hint=" Description"
+
+        android:inputType="textEmailAddress"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+
+    <Button
+        android:id="@+id/add_service_button"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bbuttonback"
+        android:layout_height="wrap_content"
+        android:text="ADD Service" />
+</LinearLayout>

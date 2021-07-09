@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/event2"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".owner">
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bbuttonback"
+        android:gravity="center"
+        android:text="Event Managment"
+        android:textColor="#000000"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/add_services"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bbuttonback"
+        android:layout_marginTop="80dp"
+        android:text="Add services" />
+
+    <Button
+        android:id="@+id/update_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bbuttonback"
+        android:text="Update services" />
+    <Button
+        android:id="@+id/delete_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bbuttonback"
+        android:text="Delete services" />
+
+    <Button
+        android:id="@+id/view_booking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bbuttonback"
+        android:text="View Booking" />
+</LinearLayout>
